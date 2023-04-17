@@ -1,0 +1,8 @@
+header {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; 
+    min-height: 800px; 
+}
