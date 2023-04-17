@@ -1,54 +1,82 @@
+{
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
 
-
-
-
-
+body {
+	background-color: white; 
+}
 
 header {
-    margin: 0;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top; 
-    min-height: 800px; 
+	min-height: 300px; 
+	background-image: url("../images/Family_Guy_Logo.svg (1).png");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 20% 20%;
 }
 
 header h1 {
-	position: relative;
-	top: 500px; 
-	float: right; 
-	font-family: 'Irish Grover', cursive;
-	font-size: 3em;
-	color: #;
+	margin-left: 35%;
+	color: black; 
+	font-weight: bold;
+	font-size: 7em;
 }
 
-header nav {
-	margin: 0;
-	padding: 0;
-	background: #0D3B66;
-	font-size: 2em;
+header h2 {
+	margin-left: 45%; 
+	color: #A69581; 
+	font-size: 3em; 
 }
 
-header nav ul {
-	list-style: none;
-	margin: 0; 
-	padding: 10px 0 10px 0; 
+.hnav {
+	padding: 5px 0;
+	width: 100%;
+	background-color: #A69581; 
+	min-height: 50px; 
 }
 
-header nav ul li {
-	
+.hnav ul {
+	display: block; 
+	text-align: center;
+}
+
+.hnav ul li {
 	display: inline-block;
-    margin-right: 1em;
+	list-style: none;
+	width: 10%; 
+	background-color: #04B2D9; 
+	margin-top: .8%;
 }
 
-header nav a {
-	color: #FAF0CA;
+.hnav a {
+	color: white;
 	text-decoration: none; 
-	padding: 30px 25px 13px 25px; 
+	font-size: 1.5em; 
 }
 
-/* Pseudo-Class Selector */ 
-header nav a:hover {
-	background: #F4D35E; 
-	        /* #rrggbbaa */ 
+.fnav {
+	padding: 5px 0;
+	width: 100%;
+	background-color: #A69581; 
+	min-height: 50px; 
+}
+
+.fnav ul {
+	display: block; 
+	text-align: center;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 10%; 
+	background-color: #04B2D9; 
+	margin-top: .8%;
+}
+
+.fnav a {
+	color: white;
+	text-decoration: none; 
+	font-size: 1.5em; 
 }
