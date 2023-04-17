@@ -23,19 +23,19 @@ header h2 {
 	font-size: 3em; 
 }
 
-.hnav {
+nav {
 	padding: 5px 0;
 	width: 100%;
 	background-color: #0D3B66; 
 	min-height: 50px; 
 }
 
-.hnav ul {
+nav ul {
 	display: block; 
 	text-align: center;
 }
 
-.hnav ul li {
+nav ul li {
 	display: inline-block;
 	list-style: none;
 	width: 10%; 
@@ -43,7 +43,7 @@ header h2 {
 	margin-top: .8%;
 }
 
-.hnav a {
+nav a {
 	color: #F4D35E;
 	text-decoration: none; 
 	font-size: 1.5em; 
