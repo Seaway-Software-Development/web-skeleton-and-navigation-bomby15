@@ -57,32 +57,10 @@ blockquote {
     cursor: pointer;
   }
 
-.fnav {
-	padding: 5px 0;
-	width: 100%;
-	background-color: #F4D35E; 
-	min-height: 50px; 
-}
-
-.fnav ul {
-	display: block; 
-	text-align: center;
-}
-
-.fnav ul li {
-	display: inline-block;
-	list-style: none;
-	width: 10%; 
-	background-color: #0D3B66;; 
-	margin-top: .8%;
-}
-
-.fnav a {
-	color: #F4D35E;
-	text-decoration: none; 
-	font-size: 1.5em; 
-}
-
-footer h4, footer h5, footer h6 {
-	text-align: center; 
-}
+  footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #F4D35E;
+    color: #0D3B66;
+    padding: 1% 0%;
+     }
