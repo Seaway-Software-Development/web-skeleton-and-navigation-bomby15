@@ -26,11 +26,11 @@ nav a {
     padding: 10px 25px;
     font-size: 2em;
     text-decoration: none;
-    color: #FAF0CA;
+    color: #0D3B66;
 }
     
 nav a:hover {
-    color: #0D3B66;
+    color: #FAF0CA;
     text-decoration: underline;
 }
     
