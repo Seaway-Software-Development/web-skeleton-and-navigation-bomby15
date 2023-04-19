@@ -96,7 +96,7 @@ article:nth-of-type(2) {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 500%;
+    width: 100%;
     background-color: #F4D35E;
     color: #0D3B66;
     text-align: center;
