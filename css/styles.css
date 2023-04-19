@@ -149,8 +149,7 @@ footer nav a:hover {
 }
 
 main {
-	width: 100%; 
-	min-height: 500px; 
-    color: #0D3B66;
+	background: #0D3B66
+	color: #F4D35E;
 }
 
