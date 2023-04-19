@@ -46,8 +46,25 @@ blockquote {
 }
 
 article {
-    
+	padding: 2%; 
 }
+
+article h3 {
+	text-align: center; 
+}
+
+article img {
+	margin: 0 auto; 
+}
+
+article ul {
+	margin-left: 10%; 
+}
+
+article:nth-of-type(2) {
+	background-color: rgba(204, 204, 204, 0.3); 
+}
+
 .button {
     border: none;
     color: white;
