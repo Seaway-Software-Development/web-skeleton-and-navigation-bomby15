@@ -41,6 +41,12 @@ header {
     height: 800px;
 }
 
+header article {
+    font-size: 7em;
+    display: center;
+}
+]
+
 blockquote {
 
 }
