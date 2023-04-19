@@ -92,12 +92,55 @@ article:nth-of-type(2) {
     cursor: pointer;
   }
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #F4D35E;
-    color: #0D3B66;
-    text-align: center;
-  }
+  footer {
+	clear:both; 
+	margin: 50px 0 0 0;
+	padding: 0;
+	width: 100%; 
+	background-color: #070202;
+	text-align: center; 
+	color: #0091DF;
+	min-height: 300px; 
+}
+
+footer nav {
+	clear:both;
+	margin: 50 0 0 0; 
+	padding: 0;
+	background-color: #070202;
+	min-height: 60px;
+	font-size: 1em; 
+}
+
+footer nav ul {
+	list-style: none; 
+	width: 100%;
+	padding: 10px 0 10px 25px; 
+	margin: 0;
+}
+
+footer nav ul li {
+	display: inline-block; 
+	margin-right: 1em; 
+	
+}
+
+footer nav a {
+	color: #0091DF; 
+	text-decoration: none;
+	padding-right: 50px; 
+}
+
+footer .emoji {
+    font-size: 5.5em;
+    padding: 10px 10px;
+    vertical-align: middle;
+}
+
+footer nav a:hover {
+	color:#0091DF;
+	text-decoration: underline;
+}
+
+
+
